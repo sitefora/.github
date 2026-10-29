@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-label="SiteFora — сайты, интеграции, автоматизация">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8FBFF"/><stop offset="1" stop-color="#E7F1FF"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1463FF"/><stop offset="1" stop-color="#33C5F4"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#C8DDF9" stroke-width=".8" opacity=".42"/></pattern>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="12" stdDeviation="17" flood-color="#0B183F" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1280" height="340" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="340" rx="20" fill="url(#grid)"/>
+  <circle cx="1100" cy="30" r="190" fill="#B9EAFB" opacity=".55"/>
+  <circle cx="1190" cy="292" r="170" fill="#C8DAFF" opacity=".55"/>
+  <rect x="56" y="62" width="7" height="204" rx="3.5" fill="url(#accent)"/>
+  <text x="90" y="148" fill="#0B183F" font-family="Arial,Helvetica,sans-serif" font-size="75" font-weight="750" letter-spacing="-3.5">Site<tspan fill="#1463FF">Fora</tspan></text>
+  <text x="93" y="195" fill="#35466B" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="500">Разработка сайтов и автоматизация бизнеса</text>
+  <text x="94" y="247" fill="#1463FF" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="2.2">WEB  /  INTEGRATIONS  /  AUTOMATION</text>
+  <g filter="url(#shadow)">
+    <rect x="854" y="72" width="290" height="194" rx="17" fill="#FFFFFF" stroke="#D2E4FF" stroke-width="2"/>
+    <rect x="854" y="72" width="290" height="37" rx="17" fill="#0B183F"/>
+    <path d="M854 92V109H1144V92" fill="#0B183F"/>
+    <circle cx="876" cy="91" r="5" fill="#33C5F4"/><circle cx="893" cy="91" r="5" fill="#8FBAFF"/><circle cx="910" cy="91" r="5" fill="#E1E9FF"/>
+    <rect x="878" y="132" width="106" height="12" rx="6" fill="#0B183F" opacity=".85"/>
+    <rect x="878" y="154" width="171" height="8" rx="4" fill="#BFD1EC"/>
+    <rect x="878" y="169" width="145" height="8" rx="4" fill="#D1DFF1"/>
+    <rect x="878" y="200" width="91" height="36" rx="9" fill="url(#accent)"/>
+    <rect x="995" y="128" width="124" height="110" rx="12" fill="#EEF6FF"/>
+    <path d="M1011 217L1038 186L1062 198L1085 162L1105 177" stroke="#1463FF" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1038" cy="186" r="5" fill="#33C5F4"/><circle cx="1085" cy="162" r="5" fill="#33C5F4"/>
+  </g>
+  <g>
+    <rect x="757" y="115" width="84" height="58" rx="14" fill="#1463FF"/>
+    <path d="M778 144h42m-21-14v28" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+    <path d="M841 144h16" stroke="#1463FF" stroke-width="3" stroke-dasharray="5 6"/>
+    <rect x="1123" y="225" width="77" height="59" rx="14" fill="#0B183F"/>
+    <path d="M1145 254l12 12 21-23" stroke="#33C5F4" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
