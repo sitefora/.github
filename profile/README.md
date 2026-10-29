@@ -1,6 +1,13 @@
 <div align="center">
 
-<img src="./assets/cover.svg" alt="SiteFora — сайт, который упрощает работу бизнеса" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sitefora-logo-light.svg">
+  <img src="./assets/sitefora-logo-light.svg" alt="SiteFora — официальный логотип" width="380" />
+</picture>
+
+<br /><br />
+
+**Сайт, который упрощает работу бизнеса.**
 
 <br/>
 
