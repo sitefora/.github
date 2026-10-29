@@ -1,7 +1,7 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/sitefora-logo-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/sitefora-logo-dark.svg">
   <img src="./assets/sitefora-logo-light.svg" alt="SiteFora — официальный логотип" width="380" />
 </picture>
 
