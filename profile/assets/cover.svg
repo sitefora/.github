@@ -1,53 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
-<title id="title">SiteFora — сайт, который упрощает работу бизнеса</title>
-<desc id="desc">Брендированный баннер по концепции Geologica. Слева сообщение студии SiteFora, справа схема обработки заявки: новая заявка, уведомление в Telegram, ответ клиенту.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="cover-title cover-desc">
+<title id="cover-title">SiteFora — создаём цифровые решения для бизнеса</title>
+<desc id="cover-desc">Минималистичный тёмный баннер в фирменной палитре SiteFora: фиолетовый и лаймовый. Направления: сайты и веб-продукты, автоматизация, корпоративный ИИ.</desc>
 <defs>
-  <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F7FAFF"/><stop offset=".67" stop-color="#EDF5FF"/><stop offset="1" stop-color="#DBEEFF"/></linearGradient>
-  <linearGradient id="brand" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#1463FF"/><stop offset="1" stop-color="#33C5F4"/></linearGradient>
-  <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DDEBFF"/><stop offset="1" stop-color="#CAEAFE"/></linearGradient>
-  <filter id="cardShadow" x="-25%" y="-35%" width="160%" height="180%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0B183F" flood-opacity=".11"/></filter>
+ <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7853E9"/><stop offset="1" stop-color="#A68DFF"/></linearGradient>
+ <radialGradient id="glow" cx="75%" cy="45%" r="65%"><stop stop-color="#7853E9" stop-opacity=".20"/><stop offset="1" stop-color="#7853E9" stop-opacity="0"/></radialGradient>
 </defs>
-<rect width="1280" height="440" rx="24" fill="url(#surface)"/>
-<path d="M823 0H1280V440H898C984 390 1016 329 1017 271C1018 188 915 116 823 0Z" fill="#E7F0FF" opacity=".74"/>
-<path d="M1101 0C1086 60 1054 84 996 102S888 133 864 197C835 275 917 355 1035 440H1280V0Z" fill="#D4E9FF" opacity=".68"/>
-<path d="M1164 0C1118 69 1133 124 1201 167S1280 255 1280 320V0Z" fill="#33C5F4" opacity=".14"/>
-<path d="M0 388C143 368 232 398 294 440H0Z" fill="#C9E7FF" opacity=".6"/>
-<g font-family="Geologica,Arial,Helvetica,sans-serif">
-  <text x="74" y="75" font-size="34" font-weight="800" letter-spacing="-1.4" fill="#0B183F">Site<tspan fill="#1463FF">Fora</tspan></text>
-  <rect x="74" y="102" width="195" height="26" rx="13" fill="#E0ECFF"/>
-  <text x="88" y="120" font-size="12" font-weight="700" letter-spacing=".4" fill="#1463FF">САЙТЫ · ИНТЕГРАЦИИ · АВТОМАТИЗАЦИЯ</text>
-  <text x="74" y="200" font-size="54" font-weight="800" letter-spacing="-2" fill="#0B183F">Сайт, который</text>
-  <text x="74" y="264" font-size="54" font-weight="800" letter-spacing="-2.2" fill="#0B183F">упрощает работу</text>
-  <text x="74" y="328" font-size="54" font-weight="800" letter-spacing="-2" fill="#1463FF">бизнеса.</text>
-  <rect x="75" y="343" width="200" height="5" rx="2.5" fill="#33C5F4"/>
-  <text x="76" y="387" font-size="17" font-weight="500" fill="#35466B">Создаём сайты и автоматизируем</text>
-  <text x="76" y="410" font-size="17" font-weight="500" fill="#35466B">заявки, уведомления и процессы.</text>
+<rect width="1280" height="440" rx="24" fill="#171B19"/>
+<rect width="1280" height="440" rx="24" fill="url(#glow)"/>
+<path d="M0 92H1280M0 390H1280" stroke="#F7F7F3" stroke-opacity=".12"/>
+<path d="M744 0V440" stroke="#F7F7F3" stroke-opacity=".10"/>
+<circle cx="1140" cy="40" r="160" fill="none" stroke="#7853E9" stroke-width="1.5" opacity=".24"/>
+<circle cx="1140" cy="40" r="228" fill="none" stroke="#7853E9" stroke-width="1.5" opacity=".14"/>
+<g font-family="Geologica, Arial, Helvetica, sans-serif">
+ <text x="65" y="58" fill="#D5FC74" font-size="19" font-weight="800" letter-spacing="2.5">SITEFORA <tspan fill="#F7F7F3" font-weight="500" letter-spacing="1.2">/ DIGITAL STUDIO</tspan></text>
+ <text x="65" y="186" fill="#F7F7F3" font-size="58" font-weight="800" letter-spacing="-2">Создаём цифровые</text>
+ <text x="65" y="256" fill="#F7F7F3" font-size="58" font-weight="800" letter-spacing="-2">решения для <tspan fill="#D5FC74">бизнеса.</tspan></text>
+ <text x="67" y="316" fill="#C1C5BE" font-size="21">От понятного сайта до сложных систем</text>
+ <text x="67" y="346" fill="#C1C5BE" font-size="21">и автоматизации процессов.</text>
+ <text x="66" y="416" fill="#9FA59D" font-size="14" letter-spacing="1.4">DESIGN  /  DEVELOPMENT  /  ENGINEERING</text>
 </g>
-<g>
-  <path d="M955 120C1033 120 1031 173 1017 201C1003 229 951 232 950 261C950 294 1040 290 1040 336" stroke="#1463FF" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <circle cx="955" cy="120" r="7" fill="#1463FF"/><circle cx="950" cy="261" r="7" fill="#1463FF"/><circle cx="1040" cy="336" r="7" fill="#1463FF"/>
+<g font-family="Geologica, Arial, Helvetica, sans-serif">
+ <rect x="815" y="98" width="383" height="83" rx="21" fill="#ECE6FF"/>
+ <rect x="815.5" y="98.5" width="382" height="82" rx="20.5" fill="none" stroke="#FFFFFF" stroke-opacity=".4"/>
+ <circle cx="855" cy="140" r="15" fill="#7853E9"/>
+ <path d="M848 140l5 5 9-11" stroke="#FFFFFF" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+ <text x="885" y="133" font-size="12" font-weight="700" letter-spacing="1.8" fill="#7853E9">01 / WEB</text>
+ <text x="885" y="157" font-size="22" font-weight="800" fill="#171717">Сайты и веб-продукты</text>
+ <rect x="847" y="195" width="370" height="83" rx="21" fill="url(#violet)"/>
+ <circle cx="887" cy="236" r="15" fill="#FFFFFF" fill-opacity=".20"/>
+ <path d="M879 237h16m-8-8v16" stroke="#FFFFFF" stroke-width="2.3" stroke-linecap="round"/>
+ <text x="917" y="228" font-size="12" font-weight="700" letter-spacing="1.8" fill="#F3EDFF">02 / SYSTEMS</text>
+ <text x="917" y="253" font-size="22" font-weight="800" fill="#FFFFFF">Автоматизация</text>
+ <rect x="816" y="292" width="383" height="83" rx="21" fill="#D5FC74"/>
+ <circle cx="856" cy="334" r="15" fill="#171B19"/>
+ <path d="M849 334h14m-7-7v14" stroke="#D5FC74" stroke-width="2" stroke-linecap="round"/>
+ <text x="886" y="325" font-size="12" font-weight="700" letter-spacing="1.8" fill="#49602B">03 / AI</text>
+ <text x="886" y="351" font-size="22" font-weight="800" fill="#171717">Корпоративный ИИ</text>
 </g>
-<g filter="url(#cardShadow)" font-family="Geologica,Arial,Helvetica,sans-serif">
-  <rect x="749" y="63" width="310" height="104" rx="22" fill="#FFFFFF"/>
-  <rect x="765" y="82" width="65" height="65" rx="16" fill="#E7F0FF"/>
-  <circle cx="798" cy="102" r="9" fill="none" stroke="#1463FF" stroke-width="4"/>
-  <path d="M783 130C784 116 811 116 813 130" fill="none" stroke="#1463FF" stroke-width="4" stroke-linecap="round"/>
-  <text x="848" y="103" font-size="21" font-weight="700" fill="#0B183F">Новая заявка</text>
-  <text x="848" y="127" font-size="15" fill="#53617E">Клиент оставил запрос</text>
-  <text x="848" y="148" font-size="15" fill="#53617E">на сайте</text>
-  <rect x="886" y="188" width="314" height="106" rx="22" fill="#FFFFFF"/>
-  <rect x="902" y="208" width="66" height="65" rx="16" fill="url(#brand)"/>
-  <path d="M916 240L951 224L943 258L934 247L927 252L928 241L945 230L923 237Z" fill="#FFFFFF"/>
-  <text x="986" y="227" font-size="20" font-weight="700" fill="#0B183F">Telegram</text>
-  <text x="986" y="250" font-size="15" fill="#53617E">Команда получает</text>
-  <text x="986" y="270" font-size="15" fill="#53617E">уведомление</text>
-  <rect x="795" y="319" width="346" height="95" rx="22" fill="#FFFFFF"/>
-  <rect x="811" y="335" width="63" height="62" rx="16" fill="#E6FBF2"/>
-  <circle cx="842" cy="366" r="16" fill="none" stroke="#1CC77D" stroke-width="4"/>
-  <path d="M834 366L840 372L850 359" stroke="#1CC77D" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="894" y="356" font-size="20" font-weight="700" fill="#0B183F">Клиенту ответили</text>
-  <text x="894" y="379" font-size="15" fill="#53617E">Запрос обработан</text>
-  <text x="894" y="399" font-size="15" fill="#53617E">без лишней рутины</text>
-</g>
-<g fill="#FFB48A"><path d="M1141 80l8-12" stroke="#FFB48A" stroke-width="3" stroke-linecap="round"/><circle cx="1155" cy="89" r="3"/><path d="M1159 72l2-11" stroke="#FFB48A" stroke-width="3" stroke-linecap="round"/></g>
+<circle cx="1219" cy="383" r="4" fill="#D5FC74"/>
 </svg>
